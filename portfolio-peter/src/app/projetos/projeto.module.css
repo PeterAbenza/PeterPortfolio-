@@ -1,0 +1,12 @@
+.Pp {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjetosTela {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    cursor: pointer;
+}

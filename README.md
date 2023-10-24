@@ -2,7 +2,7 @@
 
 Aqui mostro tudo oque foi necessario para fazer o meu Portfólio.
 
-React, JavaScript, Next.js, Bootstrap, ...Em Produção
+Next.js, JavaScript, ...Em Produção
 
 
 Linkedin: https://www.linkedin.com/in/pedro-abenza-694549269/

@@ -1,0 +1,90 @@
+.header {
+    border-radius: 15px 15px 0px 0px;
+    background-color: white;
+    border-bottom: 4px solid black;
+    display: flex;
+    justify-content: start;
+}
+
+.div {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    font-size: 40px;
+    align-items: center;
+    cursor: pointer;
+
+    .text {
+        cursor: pointer;
+
+    }
+
+    .text:hover {
+        color: #9400D3;
+    }
+}
+
+.foto {
+    display: block;
+}
+
+.aviso {
+    display: none;
+}
+
+
+
+/* telas */
+
+@media(max-width: 600px){
+
+    .header{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .div {
+        text-align: center;
+    }
+    
+    .menu {
+        font-size: 30px;
+        margin-right: 40px;
+
+    }
+    
+    .foto {
+        display: none;
+    }
+}
+
+
+@media(max-width: 365px){
+    .menu {
+        font-size: 20px;
+        margin-right: 40px;
+    }
+}
+
+@media(max-width: 280px){
+    .menu {
+        font-size: 15px;
+        margin-right: 40px;
+    }
+}
+
+@media(max-width: 250px){
+    .menu {
+        display: none;
+    }
+
+    .aviso {
+        display: inline;
+        color: #9400D3;
+        width: 100px;
+    }
+}
+

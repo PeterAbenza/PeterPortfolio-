@@ -1,0 +1,54 @@
+.menuMain {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.menus:hover {
+    transition: 1s;
+    color: #9400D3;
+}
+
+
+/* telas */
+
+@media(max-width: 1360px){
+
+}
+
+@media(max-width: 1020px){
+
+}
+
+@media(max-width: 766px){
+
+}
+
+@media(max-width: 647px){
+
+}
+
+@media(max-width: 462px){
+
+}
+
+@media(max-width: 350px){
+
+}
+
+@media(max-width: 340px){
+
+}
+
+@media (max-width: 250px){
+
+}
