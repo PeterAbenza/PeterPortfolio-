@@ -1,35 +1,23 @@
+.divPost {
+    margin-top: 20px;
+    text-align: center;
+    width: 800px;
+    justify-content: center;
+}
 
+.PostSobre {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.sobremim{
+    width: 500px;
+    text-align: left;
+}
+
+.Competencias {
+    margin-top: 40px;
+}
 
 /* telas */
-
-@media(max-width: 1360px){
-
-}
-
-@media(max-width: 1020px){
-
-}
-
-@media(max-width: 766px){
-    
-}
-
-@media(max-width: 647px){
-    
-}
-
-@media(max-width: 462px){
-    
-}
-
-@media(max-width: 350px){
-    
-}
-
-@media(max-width: 340px){
-    
-}
-
-@media (max-width: 250px){
-    
-}

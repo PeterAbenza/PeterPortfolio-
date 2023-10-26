@@ -1,8 +1,7 @@
 import styled from "./main.module.css"
-import Image from "next/image"
 import PostBase from "./pots/projetoRoblox/postRoblox"
 import MenuWindows from "../../components/MenuWindows/menuWindows"
-import Projetos from "../../app/projetos/page"
+import SobreMim from "../../components/MainBase/pots/Apresentacao/apresentacao"
 
 
 
@@ -11,11 +10,14 @@ export default function MainBase() {
     return (
         <main className={styled.main}>
             <div className={styled.tela}>
-                <div className={styled.rolagem}>
-                <Projetos/>
+                <div className={styled.RodBar}>
+                    <h1>WebFlow</h1>
                 </div>
+                <div className={styled.rolagem}>
+                    
+                </div>
+                
             </div>
-            <MenuWindows/>
         </main>
     )
 }

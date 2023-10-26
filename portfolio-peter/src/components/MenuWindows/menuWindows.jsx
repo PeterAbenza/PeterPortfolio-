@@ -13,9 +13,10 @@ export default function MenuWindows() {
     return (
         <div className={styled.menuMain}>
             <div className={styled.menus}>
-                <Link href="/projetos"></Link>
+                <Link className={styled.Links} href="/projetos">
                 <Image src={Folder} alt="Pasta" width={80} height={80} />
                 <h3>Projetos</h3>
+                </Link>
             </div>
             <div className={styled.menus}>
                 <Image src={BlocoNotas} alt="Pasta" width={80} height={80}/>

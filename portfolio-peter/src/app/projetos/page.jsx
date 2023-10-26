@@ -1,9 +1,14 @@
 import Styles from "./projeto.module.css"
 import Folders from "../../imgs/folder.png"
 import Image from "next/image"
+import NavBar from "../../components/NavBar/navBar";
+import MainBase from "../../components/MainBase/main";
 
 export default function Projetos() {
     return (
+        <body style={{backgroundColor: "black"}}>
+        <NavBar/>
+        <MainBase/>
         <div className={Styles.Pp}>
             <h1>Meus Projetos</h1>
 
@@ -19,5 +24,6 @@ export default function Projetos() {
             </div>
         </div>
         </div>
+        </body>
     )
 }

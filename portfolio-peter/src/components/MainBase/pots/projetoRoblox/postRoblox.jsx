@@ -3,7 +3,7 @@ import Image from "next/image"
 import tumbRoblox from "../../../../imgs/PerfilRoblox.jpg"
 
 
-export default function PostBase() {
+export default function PostRoblox() {
     
     return (
         <div className={styled.divPost}>

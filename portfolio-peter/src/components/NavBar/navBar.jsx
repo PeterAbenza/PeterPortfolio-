@@ -1,6 +1,6 @@
 import PeterEmPixel from "../../imgs/PeterEmPixel.png"
 import Image from 'next/image'
-import styled from "./header.module.css"
+import styled from "./navbar.module.css"
 
 export default function NavBar() {
     return(
@@ -19,7 +19,6 @@ export default function NavBar() {
             </ul>
             </div>
         </header>
-        <h1 className={styled.aviso}>Site indisponível pra esse tipo de tela!</h1>
         </>
     )
 }

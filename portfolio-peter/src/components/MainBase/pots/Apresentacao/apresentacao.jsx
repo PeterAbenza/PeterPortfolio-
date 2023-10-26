@@ -1,17 +1,20 @@
-import styled from "./posts.module.css"
+import styled from "./apresentacao.module.css"
 import Image from "next/image"
-import tumbRoblox from "../../../imgs/PerfilRoblox.jpg"
+import fotoPeter from "../../../../imgs/fotoPeter.jpeg"
 
 
-export default function PostBase() {
+export default function PostSobreMim() {
     
     return (
         <div className={styled.divPost}>
-            <div className={styled.PostRoblox}>
-                <h2>Projeto Roblox</h2>
-                <Image src={tumbRoblox} alt="Parte Roblox" width={800}/>
-                <h4 style={{marginTop: "15px"}}>Insanity Game</h4>
-                <p className={styled.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, assumenda laboriosam! Corporis enim, modi ipsa quasi fugiat at commodi molestias, aperiam itaque deleniti fugit tenetur. Blanditiis molestiae commodi eos. Consequatur.</p>
+            <h4>Sobre mim</h4>
+            <div className={styled.PostSobre}>
+                <Image className={styled.ft} src={fotoPeter} alt="Parte Roblox" width={300}/>
+                <p className={styled.sobremim}>Sou um apaixonado aspirante a desenvolvedor web com sede de aprendizado e entusiasmo por criar soluções digitais incríveis. Com formação em Gama Academy e um profundo interesse em tecnologia, estou determinado a construir minha carreira neste campo dinâmico. Minha jornada começou com a exploração de linguagens como HTML, CSS e JavaScript, e estou animado para expandir meu conhecimento em frameworks modernos e outras tecnologias essenciais. Sou um solucionador de problemas ávido e estou comprometido em aprimorar minhas habilidades para criar experiências web envolventes e eficazes. Estou ansioso para contribuir com minha paixão e criatividade em equipes de desenvolvimento.</p>
+            </div>
+            <div className={styled.Competencias}>
+            <h4>Competências</h4>
+            <p>Html - Css - React - NextJS - JavaScript - Node.js - TypeScript - Git - MongoDB - Express - Lua</p>
             </div>
         </div>
     )
